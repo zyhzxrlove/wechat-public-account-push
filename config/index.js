@@ -62,7 +62,9 @@ export const config = {
       // 想要发送的人的名字
       name: "蓉蓉",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oASwU5-1IWlCNEfCt8ZrBZ1wtW_s",
+      id: "[oASwU5-1IWlCNEfCt8ZrBZ1wtW_s,oASwU5_mLjaoY2gGFi2tizlRdrAo]",
+     
+     
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "HS63Z5vBAuQq2LFL93PxvpVG9ok_-X3PcKpRUW-yLUA",
       // 所在省份
@@ -79,19 +81,13 @@ export const config = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "*生日", "name": "蓉蓉", "year": "2004", "date": "01-26"},
-        {"type": "节日", "name": "纪念日", "year": "2020", "date": "09-03"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
-        // 在一起的日子
-        {"keyword": "love_day", date: "2022-09-08"},
-        // 结婚纪念日
-        {"keyword": "marry_day", date: "2022-09-09"},
-        // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
+        // 我们认识的日子
+        {"keyword": "love_day", date: "2019-09-16"},
+      
       ]
     },
     {
@@ -139,7 +135,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "oASwU5_mLjaoY2gGFi2tizlRdrAo",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
