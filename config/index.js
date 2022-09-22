@@ -66,7 +66,7 @@ export const config = {
      
      
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "HS63Z5vBAuQq2LFL93PxvpVG9ok_-X3PcKpRUW-yLUA",
+      useTemplateId: "Raci6ajqCjojXqXVMA3BSTli2cUTsgOes9vNKoZd87A",
       // 所在省份
       province: "甘肃省",
       // 所在城市
@@ -135,7 +135,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "oASwU5_mLjaoY2gGFi2tizlRdrAo",
+  CALLBACK_TEMPLATE_ID: "0232iEk0MiJ0a_4ANtalYq42mlR8hNx_uxZxETabJfY",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
